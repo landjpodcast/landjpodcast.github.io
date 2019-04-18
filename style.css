@@ -1,33 +1,35 @@
-
 body {
     font-family: 'Alice', serif;
+    width: 460;
+    margin:auto;
 }
 
-
-
-
-.nav ul p {
-    font-size: 23px;
-    margin: 0px;
-    padding-bottom: 5px;
-    font-family:cursive
-
-}
-
+/*This is the header*/
 .nav ul {
-    background-color: lightpink;
+    background-color: #FFB6C1;
     margin: 0px;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    padding-top: 15px;
-    
+    padding-top: 15px; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*This is the ave by the header*/
+.nav ul p {
+    font-size: 23px;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-family:cursive;
+    color:#FFFFFF;    
 }
 
 .theave {
     text-align: center;
+    font-family:cursive;
+    color:#FFC0CB;
     font-size: 30px;
-    
 }
 
 .theave h1 {
@@ -35,20 +37,19 @@ body {
     margin: 2px;
 }
 
-
 .main {
     background-image: url(flower.jpg);
-    padding:200px;
+    padding:170px;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center; 
+    font-size: 20px;
 }
 
 .button {
-    background-color: lightpink;
-    border: none;
-    color: white;
+    background-color: #FFB6C1;
+    color: #FFFFFF;
     padding: 1px 3px;
     text-align: center;
     text-decoration: none;
@@ -59,9 +60,11 @@ body {
 
 .footer {
     text-align: center;
+    padding-top: 15px;
 }
 
 .podcasts {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -70,10 +73,12 @@ img {
     height: 100%;
 }
 .parent {
+    padding-top: 5px;
     display: flex; 
-    padding: 1%;
-    
+    padding: 1%;   
 }
+
+/*These are the images inside the podcasts section of the webpage*/
 
 .image1 {
     flex: 1;
@@ -84,7 +89,7 @@ img {
     margin: 1%
 }
 
-.image2{
+.image2 {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -104,8 +109,9 @@ img {
 
 .centered {
     text-align: center;
-    outline-color: pink;
-    background-color: lightyellow;
+    outline-color: #FFC0CB;
+    background-color: #FFFFE0;
+    font-family: fantasy;
 }
 
 h5 {
@@ -125,4 +131,61 @@ h5 {
 
 .podcasts h2 {
     margin: 0px; 
+}
+
+.audio {
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.abouttext {
+    text-align: center;
+}
+
+.icons ul{
+    list-style-type: none;
+    display: flex;
+    width: 8%;
+    height: 8%;
+}
+
+/*This is the css for the icons*/
+.icons {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px;
+margin: 0px;
+}
+
+.welcome {
+    padding-top: 40px;
+    font-family:cursive;
+    color:#FF69B4;
+    font-size: 30px;
+}
+.abouttext {
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #FFFFFF;
+    font-size: 20px;  
+}
+
+/*This is for the image thats inside the about me page*/
+
+.pic {
+    width:400px;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+
+.background {
+    background-image: url(street.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
